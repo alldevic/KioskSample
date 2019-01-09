@@ -8,7 +8,7 @@ namespace KioskSample.Core.ViewModels
     {
         public string StrHello => "Hello world!";
 
-        public MvxAsyncCommand cmd =>
+        public MvxAsyncCommand ShowSecond =>
             new MvxAsyncCommand(() => Mvx.IoCProvider.Resolve<IMvxNavigationService>().Navigate<SecondViewModel>());
     }
 }

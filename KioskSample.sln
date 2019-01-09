@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskSample.Core", "KioskSample.Core\KioskSample.Core.csproj", "{AB56943A-C1B4-4A8E-AF77-A813AC33AB8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskSample.Droid", "KioskSample.Droid\KioskSample.Droid.csproj", "{C4D71426-08AB-4586-BCDB-36F03BB7E287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{AB56943A-C1B4-4A8E-AF77-A813AC33AB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB56943A-C1B4-4A8E-AF77-A813AC33AB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB56943A-C1B4-4A8E-AF77-A813AC33AB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D71426-08AB-4586-BCDB-36F03BB7E287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D71426-08AB-4586-BCDB-36F03BB7E287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D71426-08AB-4586-BCDB-36F03BB7E287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D71426-08AB-4586-BCDB-36F03BB7E287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
