@@ -12,8 +12,7 @@ namespace KioskSample.Droid.Views
 {
     [Activity(Name = "kiosksample.droid.views.SecondView", Label = "SecondView",
          LaunchMode = LaunchMode.SingleTask, ClearTaskOnLaunch = true,
-         ExcludeFromRecents = true), IntentFilter(new[] {"android.intent.action.MAIN"}, Categories =
-         new[] {Intent.CategoryHome})]
+         ExcludeFromRecents = true), IntentFilter(new[] {"android.intent.action.MAIN"})]
     public class SecondView : MvxActivity<SecondViewModel>
     {
         protected override void OnCreate(Bundle bundle)
