@@ -21,7 +21,7 @@ namespace KioskSample.Droid.Views
             SetContentView(Resource.Layout.SecondView);
 
             var intent = new Intent(DevicePolicyManager.ActionAddDeviceAdmin);
-            var deviceAdminComponentName = new ComponentName(this, Class.FromType(typeof(DeviceAdmin)).Name);
+            var deviceAdminComponentName = new ComponentName(this, Class.FromType(typeof(AdminReceiver)).Name);
             intent.PutExtra(DevicePolicyManager.ExtraDeviceAdmin, deviceAdminComponentName);
 
             StartActivityForResult(intent, 1);
