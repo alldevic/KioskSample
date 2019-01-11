@@ -2540,6 +2540,9 @@ namespace KioskSample.Droid
 			// aapt resource value: 0x7f080022
 			public const int disableHome = 2131230754;
 			
+			// aapt resource value: 0x7f0800ae
+			public const int editText = 2131230894;
+			
 			// aapt resource value: 0x7f080080
 			public const int edit_query = 2131230848;
 			
@@ -2627,14 +2630,14 @@ namespace KioskSample.Droid
 			// aapt resource value: 0x7f080063
 			public const int list_item = 2131230819;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int masked = 2131230896;
+			// aapt resource value: 0x7f0800b1
+			public const int masked = 2131230897;
 			
 			// aapt resource value: 0x7f0800a1
 			public const int media_actions = 2131230881;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int message = 2131230894;
+			// aapt resource value: 0x7f0800af
+			public const int message = 2131230895;
 			
 			// aapt resource value: 0x7f080033
 			public const int middle = 2131230771;
@@ -2882,8 +2885,8 @@ namespace KioskSample.Droid
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800af
-			public const int visible = 2131230895;
+			// aapt resource value: 0x7f0800b0
+			public const int visible = 2131230896;
 			
 			// aapt resource value: 0x7f08003e
 			public const int withText = 2131230782;
