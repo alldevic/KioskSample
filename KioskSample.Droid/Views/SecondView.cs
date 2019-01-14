@@ -1,10 +1,7 @@
 using Android.App;
-using Android.App.Admin;
-using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Views;
-using Java.Lang;
 using KioskSample.Core.ViewModels;
 using MvvmCross.Platforms.Android.Views;
 
@@ -18,12 +15,6 @@ namespace KioskSample.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.SecondView);
-
-            var intent = new Intent(DevicePolicyManager.ActionAddDeviceAdmin);
-            var deviceAdminComponentName = new ComponentName(this, Class.FromType(typeof(AdminReceiver)).Name);
-            intent.PutExtra(DevicePolicyManager.ExtraDeviceAdmin, deviceAdminComponentName);
-
-            StartActivityForResult(intent, 1);
         }
 
         public override bool OnKeyDown(Keycode keyCode, KeyEvent e) => true;
