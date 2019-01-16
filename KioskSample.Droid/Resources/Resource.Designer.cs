@@ -3131,10 +3131,13 @@ namespace KioskSample.Droid
 			public const int select_dialog_singlechoice_material = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int support_simple_spinner_dropdown_item = 2130903100;
+			public const int StartView = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int tooltip = 2130903101;
+			public const int support_simple_spinner_dropdown_item = 2130903101;
+			
+			// aapt resource value: 0x7f03003e
+			public const int tooltip = 2130903102;
 			
 			static Layout()
 			{

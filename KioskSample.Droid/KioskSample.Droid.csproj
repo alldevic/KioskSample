@@ -64,11 +64,10 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Views\FirstView.cs" />
         <Compile Include="Views\SecondView.cs" />
+        <Compile Include="Views\StartView.cs" />
     </ItemGroup>
     <ItemGroup>
-        <None Include="Resources\AboutResources.txt" />
         <None Include="Properties\AndroidManifest.xml" />
-        <None Include="Assets\AboutAssets.txt" />
     </ItemGroup>
     <ItemGroup>
         <AndroidResource Include="Resources\values\colors.xml" />
@@ -94,6 +93,12 @@
     </ItemGroup>
     <ItemGroup>
       <AndroidResource Include="Resources\xml\device_admin.xml" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Assets" />
+    </ItemGroup>
+    <ItemGroup>
+      <AndroidResource Include="Resources\layout\StartView.xml" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

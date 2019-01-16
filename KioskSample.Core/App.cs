@@ -7,7 +7,7 @@ namespace KioskSample.Core
     {
         public override void Initialize()
         {
-            RegisterAppStart<FirstViewModel>();
+            RegisterAppStart<StartViewModel>();
         }
     }
 }

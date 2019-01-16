@@ -16,6 +16,12 @@
             android:text="Name"
             android:ems="10"
             android:id="@+id/editText"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show first"
+            app:MvxBind="Click ShowFirst"/>
+    
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Close"
