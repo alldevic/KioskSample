@@ -1,3 +1,4 @@
+using System;
 using Android.App;
 using Android.App.Admin;
 using Android.Content;
@@ -6,6 +7,8 @@ using Android.OS;
 using Android.Views;
 using Java.Lang;
 using KioskSample.Core.ViewModels;
+using MvvmCross;
+using MvvmCross.Navigation;
 using MvvmCross.Platforms.Android.Views;
 
 namespace KioskSample.Droid.Views
@@ -37,8 +40,7 @@ namespace KioskSample.Droid.Views
             {
                 case ActivationRequest:
                     if (resultCode != Result.Ok) return;
-                    var myDevicePolicyManager =
-                        (DevicePolicyManager) GetSystemService(DevicePolicyService);
+                    var myDevicePolicyManager = (DevicePolicyManager) GetSystemService(DevicePolicyService);
 
                     if (myDevicePolicyManager.IsDeviceOwnerApp(PackageName))
                     {
